@@ -11,6 +11,7 @@
   ],
   "main": "dist/docsify-namespaced.js",
   "unpkg": "dist/docsify-namespaced.min.js",
+  "jsdelivr": "dist/docsify-namespaced.js",
   "scripts": {
     "build": "rollup -c",
     "clean": "rimraf dist/*",

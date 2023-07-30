@@ -8,7 +8,8 @@ function docsifyNamespaced(hook, vm) {
     if (hashMode) {
       window.location.hash = url;
     } else {
-      window.location.href = url;
+      //window.location.href = url;
+      window.location.hash = url;
     }
   };
 
